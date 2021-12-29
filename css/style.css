@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* the starter of navber */
+.sticky{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: #412fb3 !important;
+}
+
+button:focus{
+    outline: none;
+}
+
+.my_nav{
+    background-color: #22195b;
+    width: 100%;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 17px;
+    margin-right: 35px;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 30px;
+    font-weight: 700
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-butt{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1.5px solid white;
+    transition: 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+
+.nav-butt:hover{
+    background-color: transparent;
+    color: white;
+    transition: 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+
+/* the end of navber */
+
+/* starter of header section */
+
+.banner{
+    padding: 96px 0px;
+}
+
+header{
+    background-color: #22195b;
+    width: 100%;
+}
+
+.banner_butt{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 30px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1.5px solid white;
+    transition: 0.5s ease-in-out;
+}
+
+.banner_left{
+    color: white;
+    padding: 55px !important;
+}
+
+.banner_left h1{
+    font-size: 52px;
+}
+
+.banner_butt:hover{
+    background-color: #22195b;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.title{
+    padding: 70px 0px;
+}
+
+.title h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+
+.i-con{
+    display: inline-block;
+    font-size: 45px !important;
+}
+
+.sub-title{
+    padding: 7px 0px 150px 0px;
+}
+
+.sub-title h4{
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.service{
+    padding: 30px;
+    transition: 0.4s ease-in-out;
+}
+
+.service:hover{
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px;
+    transition: 0.4s ease-in-out;
+}
+
+.offer_butt{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 22px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #22195b;
+    transition: 0.5s ease-in-out;
+}
+
+.offer_butt:hover{
+    color: white;
+    background-color: #22195b;
+    transition: 0.5s ease-in-out;
+}
+
+.offer1{
+    padding: 48px;
+}
+
+.offer1 h1{
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Rajdhani', sans-serif ;
+}
+
+.offer2{
+    padding-top: 48px 0px;
+}
+
+.feature2{
+    padding: 120px 0px;
+}
+
+.feature2 h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700
+}
+
+.service1{
+    background: #FAF9FF;
+    padding: 21px 50px !important;
+    transition: 0.7s ease-in-out;
+}
+
+.service1 h4{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.service1 p{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.fa{
+    font-size: 30px !important;
+}
+
+.upper{
+    margin-top: -50px;
+}
+
+.service1:hover{
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px;
+    transition: 0.7s ease-in-out;
+}
+
+.flex_img{
+	    padding: 59px 0px 0px;
+}
+
+/* end of header section  */
+
+/* starter of solution */
+
+.Solution{
+    padding: 160px 0px 100px 0px;
+}
+
+.solution_part{
+    padding: 86px 48px 96px;
+}
+
+.solution_part h1{
+	font-weight: 600;
+    color: #403a3a;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.solution_img{
+	padding: 86px 0px 0px;
+}
+
+/* end of solution */
+
+/* starter of plan section */
+
+.plan_part{
+    padding: 50px 0px;
+}
+
+.plan_part2 h4{
+    padding-top: 33px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.plan_part2 h1{
+    padding-top: 15px;
+    padding-bottom: 42px;
+    font-size: 60px;
+}
+
+.myplan p{
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 15px 0px;
+} 
+
+.p_icon{
+    font-size: 20px !important;
+    padding-right: 5px !important;
+    vertical-align: middle !important;
+}
+
+.wrapper{
+    transition: 0.7s ease-in-out;
+    padding: 0px 0px 30px 0px;
+}
+
+.wrapper:hover{
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px;
+    transition: 0.7s ease-in-out;
+}
+
+.wrapper:hover .plan_butt{
+    color: white;
+    background-color: #22195b;
+    transition: 0.5s ease-in-out;
+}
+
+.plan_butt{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 22px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #22195b;
+    transition: 0.5s ease-in-out;
+}
+
+/* end of plan section */
+
+/* starter of client section */
+
+.client_1{
+    padding: 100px 0px;
+}
+
+.client_1 h1{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.owl-carousel .owl-item img{
+    display: inline-block !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 21px !important;
+    height: 8px !important;
+    border-radius: 7px !important;
+}
+
+.owl-theme .owl-nav{
+    display: none;
+}
+
+.owl-theme .owl-dots{
+    margin-top: 60px !important;
+}
+
+.owl-dot.active span{
+    background-color: #21146a !important;
+}
+
+
+/* end of client section */
+
+/* offer slider start here */
+
+.offer_slider .item img{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.offer_slider .item img:hover{
+    filter: none;
+    opacity: 1;
+}
+
+.offer_slider{
+    padding: 130px 0px 80px 0px;
+}
+
+
+/* offer slider start here */
+
+/* footer section start here  */
+
+.footer_section{
+    padding: 50px 0px;
+    height: auto;
+    width: 100%;
+    background-color: #0e1424;
+}
+.footer_section a{
+    color: #797979 !important;
+    display: block;
+    line-height: 30px;
+}
+
+.footer_section a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+.footer_section h4{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer_section p{
+    color: #797979;
+}
+
+.footer_section .col-md-4 p{
+    margin-top: 5px !important;
+}
+
+input{
+    height: 48px;
+    border: none;
+    width: 67% !important;
+    font-weight: 400;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+    outline: none;
+    position: relative;
+}
+
+.form{
+    position: absolute;
+	font-size: 17px;
+    padding: 5px 20px;
+    right: 88px;
+    top: 96px;
+    border: none;
+}
+
+
+/* footer section end here */
+
+
+
+/* responsive design start from here */
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.banner_left{
+		padding: 16px !important;
+  }
+	.banner_left h1 {
+    font-size: 4vw;
+	}
+	.soft{
+		font-size: 14px !important;
+	}
+	.service{
+		text-align: center;
+		padding: 10px 0px;
+	}
+	.offer1{
+		padding: 0px;
+	}
+	.offer1 h1{
+		margin-bottom: 0px;
+		font-size: 31px;
+		font-family: 'Rajdhani', sans-serif;
+	}
+	.offer1_image{
+		padding: 20px;
+	}
+	.service1 {
+		padding: 15px 6px !important;
+	}
+	.upper {
+		margin-top: -43px;
+	}
+	.flex_img{
+		padding: 95px 0px 0px;
+	}
+	.solution_part{
+		padding: 0px;
+	}
+	.solution_img{
+		padding-top: 0px;
+	}
+	.solution_part h1{
+		font-size: 37px !important;
+		margin-bottom: 0 !important;
+	}
+    .wrapper{
+        padding: 0px 5px 30px 0px;
+    }
+	.myplan p{
+		font-size: 18px;
+		margin: 7px;
+	}
+	.plan_butt {
+		margin-top: 15px;
+	}
+	.owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    .owl-theme2 .owl-dots{
+        display: none;
+    }
+    .footer_section h4 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .footer_section a{
+        font-size: 11px;
+        line-height: 27px;
+    }
+    .left_footer{
+        padding-bottom: 15px;
+    }
+    .footer_section .col-md-4 p {
+        font-size: 10px;
+    }
+    .form{
+        padding: 5px 10px;
+        right: 34px;
+        top: 70px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+    .banner_left{
+        text-align: center;
+        padding: 50px 21px !important;
+    }
+    .banner_left h1 {
+    font-size: 36px;
+    }
+    .banner {
+    padding: 20px 0px;
+    }
+    .title {
+    padding: 50px 0px;
+    }
+    .title h1{
+        font-size: 33px;
+    }
+    .title p{
+        font-size: 13px !important;
+    }
+    .service {
+        padding: 30px 29px;
+        text-align: center;
+    }
+    .sub-title {
+        padding: 0px;
+    }
+    .mobile{
+        flex-direction: column-reverse;
+    }
+    .offer1 {
+        padding: 25px;
+        text-align: center;
+    }
+    .offer1 h1 {
+        margin-bottom: 5px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .offer1 p{
+        font-size: 15px;
+    }
+    .feature2 {
+        padding: 76px 0px;
+    }
+    .feature2{
+        font-size: 14px;
+    }
+    .upper {
+        margin-top: 0px;
+    }
+    .lower{
+        margin-top: 10px;
+    }
+    .headline h1{
+        font-size: 33px;
+    }
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .Solution {
+        padding: 0px;
+    }
+    .solution_img {
+        padding: 50px 0px 0px;
+    }
+	.solution_part {
+		padding: 48px 5px 42px;
+		text-align: center;
+	}
+    .solution_part h1 {
+        font-size: 36px;
+    }
+    .wrapper2 p{
+        font-size: 13px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    .owl-theme2 .owl-dots{
+        display: none;
+    }
+    .footer_section{
+        text-align: center;
+    }
+    .form {
+        right: 25px;
+        top: 98px;
+    }
+    .footer_section h4 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+}
+
+
+
+/* resposive design end from here */
